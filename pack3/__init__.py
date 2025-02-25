@@ -1,0 +1,1 @@
+from pack3.funcionppal import ndfaleatorio
