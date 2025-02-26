@@ -14,7 +14,7 @@ def ndfaleatorio():
     # Crear un DataFrame
     data = {
         "Categoría": ["A", "B", "C", "D"],
-        "Cantidad": [numero_aleatorio, 20, 30, 40]
+        "Cantidad": [numero_aleatorio, 2, 3, 4]
     }
     df = pd.DataFrame(data)
 
