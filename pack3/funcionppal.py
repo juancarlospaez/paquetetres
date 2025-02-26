@@ -16,15 +16,13 @@ def ndfaleatorio():
         "Categoría": ["A", "B", "C", "D"],
         "Cantidad": [numero_aleatorio, 2, 3, 4]
     }
-    df = pd.DataFrame(data)
-
-
-    print(df["Cantidad"].sum())
-
 
     df = pd.DataFrame(data)
-    # Mostrar el DataFrame
-    return(f"SUMA columna {df["Cantidad"].sum()}")
+    Variable = df["Cantidad"].sum()
+    return(f"SUMA columna {Variable}")
+
+
+
 
 if __name__ == "__main__":
 
