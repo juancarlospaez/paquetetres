@@ -24,7 +24,9 @@ def ndfaleatorio():
 
     df = pd.DataFrame(data)
     # Mostrar el DataFrame
-    return(df["Cantidad"].sum())
+    return(f"SUMA columna {df["Cantidad"].sum()}")
 
 if __name__ == "__main__":
+
+    print("Suma de la columna:  ", ndfaleatorio())
     print("Ejecucion desde el sistema")
