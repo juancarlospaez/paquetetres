@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="paquetetres",  # Nombre del paquete
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
     install_requires=[],  # Lista de dependencias si las tienes
     author="Juan Paez",
