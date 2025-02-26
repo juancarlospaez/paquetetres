@@ -1,1 +1,2 @@
-from pack3.funcionppal import ndfaleatorio
+from .funcionppal import ndfaleatorio
+__all__ = ["ndfaleatorio"]

@@ -13,7 +13,7 @@ def ndfaleatorio():
     df = pd.DataFrame(data)
     Variable = df["Cantidad"].sum()
 
-    return(f"SUMA columna {int(Variable)}")
+    return(f"SUMA ## columna {int(Variable)}")
 
 if __name__ == "__main__":
 
